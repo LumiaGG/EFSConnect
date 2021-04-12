@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="服务器设置">
+
+        <EditTextPreference
+            app:key="server_Url"
+            app:title="服务器Url:"
+            app:defaultValue="http://119.29.130.26:7000"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="auth"
+            app:title="访问密钥"
+            app:defaultValue="iiioooppp"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            app:title="帮助"
+            app:summary="需要重启应用才能更改以上设置"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="搜索">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="其他">
+
+        <Preference
+            app:key="feedback"
+            app:title="发送反馈"
+            app:summary="上传技术Issues或提供建议"/>
+        <Preference
+            app:key="about"
+            app:title="关于"
+            app:summary="我是 Android 新手, 这是测试版本,拥有非常多的BUG"
+            />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
